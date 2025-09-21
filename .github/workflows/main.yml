@@ -1,0 +1,13 @@
+name: diabale workflow
+
+on:
+ push: 
+  branches: [ main ]
+
+  jobs: 
+   disable:
+    run-on: ubuntu-latest
+
+    steps: 
+     - name: alihamza
+       run: "disable workflow "
